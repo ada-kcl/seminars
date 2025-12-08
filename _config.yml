@@ -1,8 +1,8 @@
 # Jekyll configuration for seminar page
 title: ADA Seminar
 description: Academic seminar series
-url: "https://edwinlock.github.io"
-baseurl: "/ada-seminar"
+url: "https://ada-kcl.github.io"
+baseurl: "/seminars"
 
 # Build settings
 markdown: kramdown
