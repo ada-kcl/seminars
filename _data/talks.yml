@@ -8,10 +8,19 @@
   date: "2026-01-19"
   time: "15:00-16:00"
   room: "(S)5.01"
-  abstract: | Pattern matching is an action most of us perform daily when we search for a term on the web or a word in a document.  In most applications, finding the exact occurrences of a pattern in a text is not enough: Think of human spelling mistakes or DNA sequencing errors, for example. In this talk, we will review recent structural and algorithmic results on approximate pattern matching (APM) under the most fundamental distance metrics: the Hamming distance and the (weighted) edit distance. Specifically, we will discuss •	the "few occurrences or almost periodicity" paradigm and how it yields efficient APM algorithms; •	a conceptually simple new algorithm for APM under weighted edit distance that nearly-matches the state-of-the-art for the unweighted variant [Landau, Vishkin; J. Algorithms’89] using very different techniques.
-  The talk will be (mostly) based on the following joint works with Tomasz Kociumaka and Philip Wellnitz:
-  Faster Approximate Pattern Matching : A Unified Approach [2020]
-  Pattern Matching under Weighted Edit Distance [2025].
+  abstract: |
+    Pattern matching is an action most of us perform daily when we search for a term on the web or a word in a document. In most applications, finding the exact occurrences of a pattern in a text is not enough: think of human spelling mistakes or DNA sequencing errors, for example.
+
+    In this talk, we will review recent structural and algorithmic results on approximate pattern matching (APM) under the most fundamental distance metrics: the Hamming distance and the (weighted) edit distance. Specifically, we will discuss:
+    
+    - the "few occurrences or almost periodicity" paradigm and how it yields efficient APM algorithms;
+    - a conceptually simple new algorithm for APM under weighted edit distance that nearly-matches the state-of-the-art for the unweighted variant  
+      [Landau, Vishkin; J. Algorithms’89] using very different techniques.
+
+    The talk will be (mostly) based on the following joint works with Tomasz Kociumaka and Philip Wellnitz:
+
+    - **Faster Approximate Pattern Matching: A Unified Approach** (2020)
+    - **Pattern Matching under Weighted Edit Distance** (2025)
 
 #- title: "Approximation Algorithms for the Traveling Salesman Problem"
 #  speaker: "Prof. Michael O'Brien"
