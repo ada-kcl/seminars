@@ -55,17 +55,17 @@
 
 - title: "Cold-Start Active Learning under Low Annotation Budgets"
   speaker: "Jiayuan Huang"
-  date: "2026-01-26"
-  time: "15:00-16:00"
+  date: "2026-01-26"         # YYYY-MM-DD format required
+  time: "15:00-16:00"        # Use hyphen for time range, spaces optional
   room: "(S)5.01"
-  abstract: |
-Cold-Start Active Learning under Low Annotation Budgets
+   abstract: |
+    Active learning aims to reduce annotation cost by selectively querying the most informative samples from an unlabeled pool. However, in the early stages of active learning, models are typically trained with extremely limited labeled data, leading to unreliable uncertainty estimates and unstable query strategies. As a result, uncertainty-based active learning methods often underperform random sampling during this phase. This issue, commonly referred to as the cold-start problem, significantly degrades the effectiveness of uncertainty-based sampling methods and hinders overall learning efficiency. In this talk, we will discuss approaches to addressing the cold-start problem. Specifically,
 
-Abstract
-Active learning aims to reduce annotation cost by selectively querying the most informative samples from an unlabeled pool. However, in the early stages of active learning, models are typically trained with extremely limited labeled data, leading to unreliable uncertainty estimates and unstable query strategies. As a result, uncertainty-based active learning methods often underperform random sampling during this phase. This issue, commonly referred to as the cold-start problem, significantly degrades the effectiveness of uncertainty-based sampling methods and hinders overall learning efficiency.
+    - we will review a commonly used framework for mitigating the cold-start issue in active learning;
+    - we will propose a conceptual perspective based on PAC/PAC-Bayes theory to identify the end of the cold-start regime, that is, to characterize when uncertainty-based methods begin to outperform random sampling.
+  
+  
 
-In this talk, we will discuss approaches to addressing the cold-start problem. Specifically,
-- 	we will review a commonly used framework for mitigating cold-start issue in active learning;
-- 	we will propose a conceptual perspective based on PAC/PAC-Bayes theory to identify the end of the cold-start regime, that is, to characterize when uncertainty-based methods begin to outperform random sampling.
+
 
 
