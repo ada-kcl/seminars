@@ -51,3 +51,21 @@
 #  time: "14:00-15:00"
 #  room: "K5.10"
 #  abstract: "When data is too large to process in its entirety, sublinear algorithms provide approximate answers using only a small sample. We present new techniques for graph property testing and discuss applications to social network analysis."
+
+
+- title: "Cold-Start Active Learning under Low Annotation Budgets"
+  speaker: "Jiayuan Huang"
+  date: "2026-01-26"
+  time: "15:00-16:00"
+  room: "(S)5.01"
+  abstract: |
+Cold-Start Active Learning under Low Annotation Budgets
+
+Abstract
+Active learning aims to reduce annotation cost by selectively querying the most informative samples from an unlabeled pool. However, in the early stages of active learning, models are typically trained with extremely limited labeled data, leading to unreliable uncertainty estimates and unstable query strategies. As a result, uncertainty-based active learning methods often underperform random sampling during this phase. This issue, commonly referred to as the cold-start problem, significantly degrades the effectiveness of uncertainty-based sampling methods and hinders overall learning efficiency.
+
+In this talk, we will discuss approaches to addressing the cold-start problem. Specifically,
+- 	we will review a commonly used framework for mitigating cold-start issue in active learning;
+- 	we will propose a conceptual perspective based on PAC/PAC-Bayes theory to identify the end of the cold-start regime, that is, to characterize when uncertainty-based methods begin to outperform random sampling.
+
+
