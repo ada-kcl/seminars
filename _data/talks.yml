@@ -72,8 +72,15 @@
   room: "(S)5.01"
   abstract: |
    Procedural activities, ranging from routine cooking to complex surgical operations, are highly structured as a set of actions conducted in a specific temporal order. Despite their success on static images and short clips, current self-supervised learning methods often overlook the procedural nature that underpins such activities. We expose the lack of procedural awareness in current SSL methods with a motivating experiment: models pretrained on forward and time-reversed sequences produce highly similar features, confirming that their representations are blind to the underlying procedural order. To address this shortcoming, we propose PL-Stitch, a self-supervised framework that harnesses the inherent temporal order of video frames as a powerful supervisory signal. Our approach integrates two novel probabilistic objectives based on the Plackett-Luce (PL) model. The primary PL objective trains the model to sort sampled frames chronologically, compelling it to learn the global workflow progression. The secondary objective, a spatio-temporal jigsaw loss, complements the learning by capturing fine-grained, cross-frame object correlations. Our approach consistently achieves superior performance across five surgical and cooking benchmarks. Specifically, PL-Stitch yields significant gains in surgical phase recognition (e.g., +11.4 pp k-NN accuracy on Cholec80) and cooking action segmentation (e.g., +5.7 pp linear probing accuracy on Breakfast), demonstrating its effectiveness for procedural video representation learning.
-  
 
-
+  - title: "The Parameterized Complexity of Counting Small Sub-Hypergraphs"
+  speaker: "Dr.Philip wellnitz"
+  date: "2026-02-24"         # YYYY-MM-DD format required
+  time: "15:00-16:00"        # Use hyphen for time range, spaces optional
+  room: "(S)5.01"
+  abstract: | Subgraph counting is a fundamental problem whose computational complexity is well understood. Quite surprisingly, the hypergraph version of subgraph counting has been almost ignored. In this work, we address this gap by investigating the most basic sub-hypergraph counting problem: given two hypergraphs H and G, compute the number of sub-hypergraphs of G isomorphic to H. Formally, for a family C of hypergraphs, let \#Sub(C) be the restriction of the problem to H in C; the induced variant \#IndSub(C) is defined analogously.
+  Our main contribution is a complete classification of the fixed-parameter tractability of these problems. Assuming the Exponential Time Hypothesis, we prove that \#Sub(C) is fixed-parameter tractable if and only if C has bounded fractional co-independent edge-cover number, a novel graph parameter introduced in this work, and that \#IndSub(C) is fixed-parameter tractable if and only if C has bounded fractional edge-cover number. Both results subsume preexisting results for graphs as special cases.
+  We also show that the fixed-parameter tractable cases of \#Sub(C) and \#IndSub(C) are unlikely to be in polynomial time, unless respectively \#P=P and Graph Isomorphism is contained in P. This shows a separation with the special case of graphs, where the fixed-parameter tractable cases are known to actually be in polynomial time.
+  Joint work with Marc Roth, Marco Bressan, Julian Brinkmann, and Holger Dell.
 
 
