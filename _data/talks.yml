@@ -65,6 +65,15 @@
     - we will propose a conceptual perspective based on PAC/PAC-Bayes theory to identify the end of the cold-start regime, that is, to characterize when uncertainty-based methods begin to outperform random sampling.
   
 
+- title: "A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett–Luce Ranking"
+  speaker: "Chengan Che"
+  date: "2026-02-09"         # YYYY-MM-DD format required
+  time: "15:00-16:00"        # Use hyphen for time range, spaces optional
+  room: "(S)5.01"
+  abstract: |
+   Procedural activities, ranging from routine cooking to complex surgical operations, are highly structured as a set of actions conducted in a specific temporal order. Despite their success on static images and short clips, current self-supervised learning methods often overlook the procedural nature that underpins such activities. We expose the lack of procedural awareness in current SSL methods with a motivating experiment: models pretrained on forward and time-reversed sequences produce highly similar features, confirming that their representations are blind to the underlying procedural order. To address this shortcoming, we propose PL-Stitch, a self-supervised framework that harnesses the inherent temporal order of video frames as a powerful supervisory signal. Our approach integrates two novel probabilistic objectives based on the Plackett-Luce (PL) model. The primary PL objective trains the model to sort sampled frames chronologically, compelling it to learn the global workflow progression. The secondary objective, a spatio-temporal jigsaw loss, complements the learning by capturing fine-grained, cross-frame object correlations. Our approach consistently achieves superior performance across five surgical and cooking benchmarks. Specifically, PL-Stitch yields significant gains in surgical phase recognition (e.g., +11.4 pp k-NN accuracy on Cholec80) and cooking action segmentation (e.g., +5.7 pp linear probing accuracy on Breakfast), demonstrating its effectiveness for procedural video representation learning.
+  
+
 
 
 
