@@ -97,4 +97,11 @@
   abstract: | 
    In this tutorial, I will walk through a complete RNA-seq differential gene expression workflow for analysing transcriptional responses to ionising radiation using the DESeq2 pipeline. We will explore how to preprocess count data, perform normalisation, run differential expression analysis, and interpret key visualisations such as PCA plots, MA plots, volcano plots, and heatmaps. The session will demonstrate these steps using several human tissue radiation datasets, illustrating how transcriptomic signals can be used to identify biomarkers and prepare data for downstream machine learning applications in radiation biodosimetry. 
 
+- title: "Seeing Beyond the Visible: A modal Panoptic Segmentation for Complete Scene Understanding"
+  speaker: "Xinyue Chen"
+  date: "2026-03-23"         # YYYY-MM-DD format required
+  time: "15:00-16:00"        # Use hyphen for time range, spaces optional
+  room: "(S)5.01"
+  abstract: | 
+   A modal panoptic segmentation aims to partition an image into semantically meaningful regions while reasoning about both the visible and occluded parts of a scene. This task moves scene understanding closer to human perception, where people naturally infer the complete structure of objects and environments despite partial occlusions. In this talk, I will present an overview of a full pipeline for a modal panoptic segmentation and discuss how a system can infer regions that are not directly visible in the image. The talk will walk through the key stages of the pipeline and illustrate them with visualized examples, providing an intuitive understanding of how occluded regions can be predicted to achieve more complete scene interpretation.
 
