@@ -105,3 +105,12 @@
   abstract: | 
    A modal panoptic segmentation aims to partition an image into semantically meaningful regions while reasoning about both the visible and occluded parts of a scene. This task moves scene understanding closer to human perception, where people naturally infer the complete structure of objects and environments despite partial occlusions. In this talk, I will present an overview of a full pipeline for a modal panoptic segmentation and discuss how a system can infer regions that are not directly visible in the image. The talk will walk through the key stages of the pipeline and illustrate them with visualized examples, providing an intuitive understanding of how occluded regions can be predicted to achieve more complete scene interpretation.
 
+- title: "Can LLM-Generated Text Empower Surgical Vision-Language Pre-training?"
+  speaker: "Chao Wang"
+  date: "2026-03-30"         # YYYY-MM-DD format required
+  time: "15:00-16:00"        # Use hyphen for time range, spaces optional
+  room: "(S)5.01"
+  abstract: | 
+   In recent years, self-supervised learning has significantly advanced surgical vision models, enabling strong spatiotemporal understanding from video data. However, extending these models to multi-modal reasoning remains challenging due to the high cost and limited availability of expert-annotated surgical text. In this talk, I will introduce SurgLIME, a scalable vision-language pre-training framework that leverages LLM-generated narratives to overcome this bottleneck. We first construct LIME, a large-scale multi-modal dataset derived from open-access surgical videos paired with automatically generated textual descriptions. While this approach dramatically improves scalability, it also introduces noisy and potentially unreliable text. To address this issue, SurgLIME incorporates a parameter-efficient dual-encoder architecture with LoRA adaptation, along with a confidence-aware training mechanism that down-weights uncertain textual signals during contrastive learning. Our experiments on AutoLaparo and Cholec80 demonstrate that SurgLIME achieves strong zero-shot cross-modal alignment while preserving the robustness of pre-trained visual representations. This work highlights the potential of LLM-generated text as a scalable alternative to expert annotations in surgical vision-language learning, while also addressing the challenges of noise and reliability. 
+ 
+
