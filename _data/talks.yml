@@ -121,12 +121,12 @@
   abstract: | 
    Non-small cell lung cancer (NSCLC) is a biologically heterogeneous disease encompassing adenocarcinoma, squamous cell carcinoma, and large cell carcinoma. Patients with similar clinical stage and histology often experience distinct outcomes and therapy responses, reflecting functional heterogeneity, particularly intra-tumour variation, that is not captured by conventional classification. We present a pathway-centric deep learning framework for multi-omics integration to infer biologically meaningful functional representations across tumour regions. This approach will capture inter- and intra-tumour heterogeneity, revealing molecular variation that may be overlooked in single-sample analyses. Derived pathway profiles will support the characterisation of tumour states and downstream modelling of clinically relevant molecular states. While explainable machine learning will further identify pathways associated with these functional patterns and their potential prognostic relevance. This framework will provide a reproducible pipeline for pathway-based multi-omics analysis, improve understanding of tumour biology, enable heterogeneity-aware prognostic modelling, and facilitate translational applications for personalised patient management.
 
-- title: "The Computational Intractability of Not Worst Responding"
-  speaker: "Dr Edwin Lock"
-  date: "2026-04-27"
-  time: "15:00-16:00"
-  room: "(S)5.01"
-  paper_url: "https://arxiv.org/abs/2602.10966"
-  person_url: "https://edwinlock.com"
-  abstract: |
+ - title: "The Computational Intractability of Not Worst Responding"
+   speaker: "Dr Edwin Lock"
+   date: "2026-04-27"
+   time: "15:00-16:00"
+   room: "(S)5.01"
+   paper_url: "https://arxiv.org/abs/2602.10966"
+   person_url: "https://edwinlock.com"
+   abstract: |
     Finding, counting, or determining the existence of Nash equilibria, where players must play optimally given each others' actions, are known to be computational intractable problems. We ask whether weakening optimality to the requirement that each player merely avoid worst responses—arguably the weakest meaningful rationality criterion—yields tractable solution concepts. We show that it does not: any solution concept with this minimal guarantee is "as intractable" as pure Nash equilibrium. In general games, determining the existence of *no-worst-response* action profiles is NP-complete, finding one is NP-hard, and counting them is #P-complete. In potential games, where existence is guaranteed, the search problem is PLS-complete. Computational intractability therefore stems not only from the requirement of optimality, but also from the requirement of a minimal rationality guarantee *for each player*. Moreover, relaxing the latter requirement gives rise to a tractability trade-off between the strength of individual rationality guarantees and the fraction of players satisfying them.
